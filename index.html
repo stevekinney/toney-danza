@@ -11,10 +11,22 @@
 
   <div class="container">
 
+    <div class="controls">
+      <div class="oscillator-frequency">
+        <input id="frequency" type="number" min="110" max="880" value="220">
+      </div>
 
-    <footer>
-      <p>If you enjoyed this, check out <a href="http://github.com/stevekinney/toney-danza">the source code on Github</a> or <a href="http://twitter.com/stevekinney">follow Steve on Twitter</a>.
-    </footer>
+      <div class="oscillator-type">
+        <label><input class="type" type="radio" name="type" value="sine" checked>Sine</label>
+        <label><input class="type" type="radio" name="type" value="square">Square</label>
+        <label><input class="type" type="radio" name="type" value="sawtooth">Sawtooth</label>
+        <label><input class="type" type="radio" name="type" value="triangle">Triangle</label>
+      </div>
+
+      <div class="controls">
+        <button id="start-stop">Start</button>
+      </div>
+    </div>
 
   </div>
 

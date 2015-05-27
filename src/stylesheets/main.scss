@@ -2,7 +2,45 @@
 @import './buttons';
 @import './typography';
 
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .container {
   width: 800px;
-  margin: auto;
+  margin: 2em auto;
+}
+
+.oscillator-frequency {
+  width: 50%;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  float: left;
+  input {
+    width: 100%;
+    padding: 0.5em;
+    font-size: 6em;
+    text-align: center;
+  }
+}
+
+.oscillator-type {
+  padding: 0.5em;
+  margin-bottom: 1em;
+  input {
+    margin-right: 5px;
+  }
+  label {
+    display: block;
+    margin-bottom: 0.6em;
+  }
+}
+
+#start-stop.on {
+  background-color: $red;
+  border-color: darken($red, 10);
 }
