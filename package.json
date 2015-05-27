@@ -1,0 +1,37 @@
+{
+  "name": "toney-danza",
+  "version": "1.0.0",
+  "description": "A really simple demonstration of the Web Audio API",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "./node_modules/webpack/bin/webpack.js",
+    "watch": "./node_modules/webpack/bin/webpack.js --watch",
+    "postinstall": "bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevekinney/toney-danza.git"
+  },
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevekinney/toney-danza/issues"
+  },
+  "homepage": "https://github.com/stevekinney/toney-danza",
+  "devDependencies": {
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.12.0",
+    "node-sass": "^2.1.1",
+    "sass-loader": "^0.6.0",
+    "style-loader": "^0.12.1",
+    "svg-loader": "0.0.2",
+    "webpack": "^1.8.11",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "octavian": "^2.0.5"
+  }
+}
