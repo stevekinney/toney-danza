@@ -32,15 +32,26 @@ html {
   padding: 0.5em;
   margin-bottom: 1em;
   input {
-    margin-right: 5px;
+    margin-right: 1em;
   }
   label {
+    padding: 0.6em;
     display: block;
-    margin-bottom: 0.6em;
+    margin: 0.5em;
   }
 }
 
-#start-stop.on {
-  background-color: $red;
-  border-color: darken($red, 10);
+#gain-value {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+#start-stop {
+  width: 100%;
+  font-size: 1.4em;
+  display: block;
+  .on {
+    background-color: $red;
+    border-color: darken($red, 10);
+  }
 }
