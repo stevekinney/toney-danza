@@ -32,6 +32,7 @@
     "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {
+    "bower": "^1.8.0",
     "octavian": "^2.0.5"
   }
 }
